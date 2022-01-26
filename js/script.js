@@ -8,3 +8,9 @@ options.addEventListener('click', () => {
 })
 
 /* VALIDACION DE FORMULARIO */
+
+const btnRepos = document.getElementById('repos')
+btnRepos.addEvventListener("click", getRepos)
+
+//async getRepos               
+
